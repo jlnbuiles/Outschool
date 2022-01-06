@@ -1,0 +1,29 @@
+query PopularListings {
+  featured {
+    popularListings {
+        leader {
+            uid
+            name
+            photo
+            leader_link
+            __typename
+        }
+        activity {
+            uid
+            user_uid
+            slug_id
+            title
+            summary
+             details {
+          photo
+          __typename
+            }
+            averageStarRating
+            price_cents
+            __typename
+        }
+        __typename
+    }
+   __typename
+  }
+}
