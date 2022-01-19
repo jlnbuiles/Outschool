@@ -1,4 +1,4 @@
-# Outschool
+# Outschool - GraphQL
 
 This is a sample project that shows how we can integrate GraphQL into a small iOS app.
 
